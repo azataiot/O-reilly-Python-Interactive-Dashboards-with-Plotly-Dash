@@ -1,5 +1,5 @@
-from dash import Dash, html
-
+from dash import Dash, html, dcc
+import pandas as pd
 app = Dash(__name__)
 
 app.layout = html.Div(children=[
