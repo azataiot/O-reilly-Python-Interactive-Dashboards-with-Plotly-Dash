@@ -43,8 +43,12 @@ app.layout = html.Div([
     title,
     ticker_input,
     btn_submit,
-    candle_stick,
-    table,
+    html.Br(),
+    html.Br(),
+    dcc.Tabs([
+        dcc.Tab(label='Candle Stick', children=[candle_stick]),
+        dcc.Tab(label='Table', children=[table]),
+    ]),
 ], style={'padding': 20})
 
 """Run App"""
