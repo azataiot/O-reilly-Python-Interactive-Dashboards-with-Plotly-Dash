@@ -3,7 +3,7 @@ import pandas as pd
 
 app = Dash(__name__)
 
-df = pd.read_csv('fifa_soccer_players.csv')
+df = pd.read_csv('../data/fifa_soccer_players.csv')
 
 title = html.H1('FIFA Soccer Players Dashboard', style={
     'textAlign': 'center',

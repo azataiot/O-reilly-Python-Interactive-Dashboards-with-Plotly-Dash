@@ -4,7 +4,7 @@ import pandas as pd
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.CYBORG])
 
-df = pd.read_csv('fifa_soccer_players.csv')
+df = pd.read_csv('../data/fifa_soccer_players.csv')
 
 title = html.H1('FIFA Soccer Players Dashboard')
 
