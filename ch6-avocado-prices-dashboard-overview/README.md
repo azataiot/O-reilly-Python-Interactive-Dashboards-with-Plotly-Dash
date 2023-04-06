@@ -1,0 +1,1 @@
+This is an overview of the Avocado Prices Dashboard project. The project is a dashboard that shows the prices of avocados in the United States. The dashboard is built using the Dash framework and is deployed on Heroku. The data is obtained from the Hass Avocado Board website. The dashboard is available at https://avocado-prices-dashboard.herokuapp.com/.
